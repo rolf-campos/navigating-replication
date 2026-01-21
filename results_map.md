@@ -25,8 +25,8 @@ Computes baseline and alternative steady states and generates the comparison tab
 - `results/ss_graphs.json` — All steady-state objects across fiscal regimes & interest-rate paths
 
 #### Figures
-- **Figure 1a/1b** — Asset and bond ratios
-- **Figure 2a/2b** — Capital-output & interest-rate mappings
+- **Figure 1a/1b** — Steady state figures
+- **Figure 2a/2b** — Steady state figures
 - **Figure 8** — Liquid real interest rate vs. government debt
 
 #### Console Output
@@ -99,11 +99,11 @@ Evaluates how timing of monetary responses affects transitions; computes welfare
 - **Figure 16** — Holden rule
 
 ### Description
-Generates all appendix robustness figures and IRFs.
+Generates all remaining appendix robustness figures and IRFs.
 
 ---
 
-## Notebook 8: Empirical Evidence
+## Notebook 8: `8_empirical_evidence.ipynb`
 ### Outputs
 - **Figure 3** — LP IRF of r*
 - **Figure 9** — VAR empirical IRF
@@ -119,8 +119,8 @@ Implements empirical analysis and links model IRFs to empirical results.
 ## Figures
 | Figure | Description | Notebook |
 |--------|-------------|----------|
-| 1a/1b | Asset & bond ratios | Notebook 2 |
-| 2a/2b | Capital-output & interest-rate mappings | Notebook 2 |
+| 1a/1b | Steady state | Notebook 2 |
+| 2a/2b | Steady state | Notebook 2 |
 | 3 | LP empirical IRF | Notebook 8 |
 | 4 | Fiscal-adjustment IRFs | Notebook 4 |
 | 5a | Inflation IRF | Notebook 3 |
