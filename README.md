@@ -1,5 +1,7 @@
 ## Replication Code for *“Navigating by Falling Stars: Monetary Policy with Fiscally Driven Natural Rates”*
 
+[Ungated link to the paper](https://rolf-campos.github.io/publication/jpemacro-2026-navigating/jpemacro-2026-navigating.pdf).
+
 This repository contains all the code required to replicate **all computations**, **simulations**, and **empirical estimations** in the paper and its online appendix. The replication package is organized to allow users to reproduce both the model-based results and the empirical evidence.
 
 ---
@@ -14,6 +16,7 @@ This repository contains all the code required to replicate **all computations**
   - `matplotlib`
   - `jupyter` or `jupyterlab`
   - **Sequence‑Jacobian (SSJ) toolkit v1.0.0**  
+    https://github.com/shade-econ/sequence-jacobian  
     A frozen version of the SSJ toolkit is included in the folder `sequence_jacobian/` to ensure long‑term reproducibility.
 
 ### **Stata**
