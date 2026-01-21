@@ -57,8 +57,7 @@ This repository contains all the code required to replicate **all computations**
 ├── estimation/
 │   ├── data/
 │   ├── LP_Estimation.do
-│   └── code/
-│       └── VAR_Estimation.m
+│   └── VAR_Estimation.m
 ├── data/
 ├── sequence_jacobian/
 ├── ss/        # steady-state results
