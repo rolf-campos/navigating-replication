@@ -174,12 +174,15 @@ STOCKS = ['A', 'B', 'K', 'Bg', 'tot_wealth', 'Bg_Q_lb']
 FLOWS = ['C', 'CHI', 'Y',  'I' ,'G', 'FD', 'PD', 'Gbar', 'T', 'Transfer']
 RATES = ['pi', 'piw', 'rb', 'r', 'i', 'rbar', 'pibar', 'ra', 'ra_e', 'rb_e']
 
-def plot_irfs(to_plot, plot_cases, save_name=None, variables=None, ncols=4):    
+def plot_irfs(to_plot, plot_cases, save_name=None, variables=None, ncols=4, dots=False):    
     """
     Plot IRFs across different models/parametrizations
     """
     cmap = ['red', 'black', '#636363']
-    lmap = ['-', '--', '-.']
+    if dots:
+        lmap = ['-', '--', ':']
+    else:
+        lmap = ['-', '--', '-.']
     vars_to_plot = ['Bg', 'B', 'G', 'T', 'Transfer', 'A', 'i', 'rb', 'rbar', 'Y', 'C', 'pi', 'pibar', 'N', 'Z', 'PD', 'Gbar']
     if variables:
         vars_to_plot = variables
